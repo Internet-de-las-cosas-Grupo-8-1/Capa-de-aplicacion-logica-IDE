@@ -42,9 +42,9 @@ PubSubClient client(net);
 
 // WiFi
 // Nombre de la red WiFi
-const char ssid[] = "JOLUSE"; // TODO cambiar por el nombre de la red WiFi
+const char ssid[] = "nombre"; // TODO cambiar por el nombre de la red WiFi
 // Contraseña de la red WiFi
-const char pass[] = "1014JOLUSEfamilia"; // TODO cambiar por la contraseña de la red WiFi
+const char pass[] = "contraseña"; // TODO cambiar por la contraseña de la red WiFi
 
 //Conexión a Mosquitto
 #define USER "ironman" // TODO Reemplace UsuarioMQTT por un usuario (no administrador) que haya creado en la configuración del bróker de MQTT.
